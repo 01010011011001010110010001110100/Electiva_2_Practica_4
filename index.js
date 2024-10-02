@@ -1,1 +1,5 @@
-alert("HelloWorld!");
+function Greet() {
+    return "HelloWorld!";
+}
+
+module.exports =  Greet;
